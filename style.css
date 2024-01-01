@@ -279,7 +279,7 @@ h6 {
     position: absolute;
     color: var(--color-white);
     top: 10%;
-    left: 32%;
+    left: 35%;
     padding: 10px;
     text-align: center;
     font-family: Open Sans;
@@ -326,6 +326,23 @@ h6 {
     line-height: 43.20px;
     word-wrap: break-word;
 }
+
+
+.advantages__title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.advantages__title-line {
+    
+        width: 900px;
+        height: 1px;
+        background: var(--color-header);
+        align-self: center;
+      }
+
 
 .advantages__items {
     display: flex;
