@@ -129,9 +129,8 @@ h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    /* gap: 50px; */
     color: var(--color-white);
-    font-family: ;
 }
 
 .header__contacts-address {
@@ -167,7 +166,7 @@ h6 {
 
 .header__phone-number {
     width: 176px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Open Sans;
     font-weight: 700;
 }
@@ -203,6 +202,7 @@ h6 {
 
 .kitchen__container {
     width: 100%;
+    position: relative;
     /* max-width: 1930px; */
 }
 
@@ -256,7 +256,6 @@ h6 {
     letter-spacing: 0em;
 }
 
-
 .kitchen__container-content-price {
     display: flex;
     gap: 30px;
@@ -271,6 +270,33 @@ h6 {
 
 .kitchen__container-content-price-description span {
     font-weight: 700
+}
+
+.animated {
+    width: 239px;
+    height: 80px;
+    background-color:var(--color-header);
+    position: absolute;
+    color: var(--color-white);
+    top: 10%;
+    left: 32%;
+    padding: 10px;
+    text-align: center;
+    font-family: Open Sans;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.animated.size {
+    top: 26%;
+    left: 55%;
+    width: 281px;
+}
+
+.animated.wood {
+    top: 55%;
+    left: 50%;
+    width: 230px;
 }
 
 /* first section end*/
@@ -298,7 +324,7 @@ h6 {
     font-family: Lora;
     font-weight: 700;
     line-height: 43.20px;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 
 .advantages__items {
@@ -349,11 +375,9 @@ h6 {
 
 .title {
     display: flex;
-
 }
 
 .title .section-title {
-
     color: #002B45;
     font-size: 36px;
     font-family: Lora;
@@ -423,17 +447,14 @@ h6 {
     justify-content: space-between;
     flex-direction: column;
     gap: 50px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding-top: 50px;
     /* padding-left: 20px; */
-
 }
 
 .cards__container {
     display: flex;
     justify-content: space-between;
-    /* flex-direction: column; */
-    gap: 100px;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -452,7 +473,6 @@ h6 {
     position: relative;
 }
 
-
 .portfolio-img {
     position: absolute;
     /* display: block; */
@@ -461,7 +481,6 @@ h6 {
     transform: translateX(-65%);
     /* the rest of your styles */
 }
-
 
 .cards__container-item__title {
     font-family: Lora;
